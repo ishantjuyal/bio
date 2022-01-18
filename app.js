@@ -18,7 +18,7 @@ let letter = '';
     else {
         document.querySelector('.typing').textContent = letter + "_";
     }
-    document.querySelector('.typing').textContent = letter + "_";
+//     document.querySelector('.typing').textContent = letter + "_";
     if(letter.length === currentText.length){
         count++;
         index = 0;
