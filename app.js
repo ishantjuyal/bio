@@ -1,4 +1,4 @@
-const texts = ["\\Community", "\\Product", "\\Programming", "\\Memes", "\\Startups"];
+const texts = ["\\Community_", "\\Product_", "\\Programming_", "\\Memes_", "\\Startups_"];
 let count = Math.floor((Math.random()*5));
 let index = 0;
 let currentText = '';
@@ -12,6 +12,12 @@ let letter = '';
     currentText = texts[count];
     letter = currentText.slice(0, ++index);
 
+    if(letter.length === currentText.length){
+        document.querySelector('.typing').textContent = letter;
+    }
+    else {
+        document.querySelector('.typing').textContent = letter + "_";
+    }
     document.querySelector('.typing').textContent = letter + "_";
     if(letter.length === currentText.length){
         count++;
@@ -20,8 +26,3 @@ let letter = '';
     setTimeout(type, 220);
 
 }());
-
-function changeImg() {
-    let imgDiv = document.getElementsByClassName("picture");
-    imgDiv.innerHTML = `<img onmouseover="changeImg()" src="/images/ishant_color.png" alt="Ishant">`;
-}
