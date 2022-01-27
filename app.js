@@ -26,3 +26,9 @@ let letter = '';
     setTimeout(type, 220);
 
 }());
+
+$(".box").click(function() {
+    let urlName = $(this).find("a").attr("href");
+    window.open(urlName);
+    return false;
+});
