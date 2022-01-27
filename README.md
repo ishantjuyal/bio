@@ -4,4 +4,4 @@ So, you must have heard about Linktree right? Yeah, that site where you can make
 
 I made one for myself. But, not from their website. I made one for myself using my skills.
 
-So, yeah. You can see it here: [https://bit.ly/ishantjuyal](https://bit.ly/ishantjuyal)
+So, yeah. You can see it here: [https://ishantjuyal.com](https://ishantjuyal.com)
